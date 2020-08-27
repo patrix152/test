@@ -27,6 +27,6 @@ Class Operations {
         $conObj = new DBConfig();
         $conObj->pdo->prepare($this->sql);
     }
-
 }
+?>
 

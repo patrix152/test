@@ -12,9 +12,7 @@ Class DBConfig implements IDBConfig  {
       }
       catch (PDOException $w){
           print $w->getMessage();
-
       }
-    }
+   }
 }
-
 ?>
